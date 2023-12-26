@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/my-react-cv/static/css/main.22ebf829.css",
+    "main.js": "/my-react-cv/static/js/main.41ccd7ca.js",
+    "static/js/787.ef724937.chunk.js": "/my-react-cv/static/js/787.ef724937.chunk.js",
+    "static/media/Cinzel-ExtraBold.ttf": "/my-react-cv/static/media/Cinzel-ExtraBold.d04173c84f095ca334a8.ttf",
+    "index.html": "/my-react-cv/index.html",
+    "main.22ebf829.css.map": "/my-react-cv/static/css/main.22ebf829.css.map",
+    "main.41ccd7ca.js.map": "/my-react-cv/static/js/main.41ccd7ca.js.map",
+    "787.ef724937.chunk.js.map": "/my-react-cv/static/js/787.ef724937.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22ebf829.css",
+    "static/js/main.41ccd7ca.js"
+  ]
+}
