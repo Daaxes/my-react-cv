@@ -4,10 +4,10 @@ import './App.scss';
 import React from 'react';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
-import Layout from './components/layout';
-import Home from './components/home';
-import About from './components/about';
-import Timeline from './components/timeline';
+import Layout from './components/Jsx/layout';
+import Home from './components/Jsx/home';
+import About from './components/Jsx/about';
+import Timeline from './components/Jsx/timeline';
 
 function App() {
   return (

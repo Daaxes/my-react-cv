@@ -1,7 +1,7 @@
 
 $layoutBgColor: #000000;
-$topbarBgColor: #0f132c;
-$sidebarBgColor: #181818;
+$barBgColor: #171b31;
+// $sidebarBgColor: #181818;
 $aboutBgColor: green;
 $timelineBgColor: blue;
 $fontColor: #f5b609;
@@ -28,13 +28,12 @@ $mainBottom: 0px;
 
 @font-face {
     font-family: 'Cinzel ExtraBold';
-    src: local('Cinzel'), url('../fonts/Cinzel-ExtraBold.ttf');
+    src: local('Cinzel'), url('../Fonts/Cinzel-Bold.ttf');
  }
   
 body{
-    font-size: 20px;
+    font-size: 14px;
     color: $fontColor;
-    font-family: 'Cinzel ExtraBold';
 
     a:link{
         color: $fontColor;
@@ -50,13 +49,24 @@ body{
 }
 
 h1{
-  font-size: large;
+  font-family: 'Cinzel ExtraBold';
+  font-size: x-large;
   color: $fontColor;
+}
+
+h2{
+  color: #f5b609;
+  margin-top: 16x;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  animation: fadeIn 1s 1.8s backwards;
 }
 
 bar-container{
   position: absolute;
-  background-color: $sidebarBgColor;
+  background-color: $barBgColor;
 }
 
 .sidebar{
@@ -66,6 +76,26 @@ bar-container{
   left: $sidebarLeft;
   width: $sidebarWidth;
   bottom: $sidebarBottom;
+}
+
+.SideBar_text-Zone{
+  @extend .sidebar;
+
+  .logo {
+    display: block;
+    padding: 8px 0;
+
+    img {
+      display: block;
+      margin: 8px auto;
+      width: 200px;
+      height: auto;
+      
+      &.sub-logo {
+        width: 50px;
+      }
+    }
+  }
 }
 
 .header{
@@ -88,12 +118,30 @@ main-container{
 }
 
 .home{
-  @extend main-container
+  @extend main-container;
 }
+
+.text-zone{
+  @extend .home;
+  h1{
+    font-size: 35px
+  }
+  text-align:left;
+  left: 0px;
+  top: 30%;
+  width: 400px;
+}
+
+.image-zone{
+  @extend .home;
+  top:15%;
+  left:20%;  
+}
+
 .about{
-  @extend main-container
+  @extend main-container;
 }
 
 .timeline{
-  @extend main-container
+  @extend main-container;
 }

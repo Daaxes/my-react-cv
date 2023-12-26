@@ -1,0 +1,21 @@
+npm install --save-dev react-router-dom
+npm install --save-dev @babel/plugin-proposal-private-property-in-object
+npm install -g gh-pages --save-dev
+add in package.json "homepage": "https://Daaxes.github.io/my-react-cv/"
+add in package.json "predeploy": "npm run build"
+add in package.json "deploy": "gh-pages -d build",
+
+(css)
+npm install -g sass
+npm install -g scss
+npm install -g styles
+npm install -g sass-loader
+npm install -g scss-loader
+npm install -g style-loader
+
+(Fortawsome)
+npm install --save-dev @fortawesome/fontawesome-svg-core
+npm install --save-dev @fortawesome/free-solid-svg-icons
+npm install --save-dev @fortawesome/react-fontawesome
+npm install --save-dev @fortawesome/free-brands-svg-icons
+
