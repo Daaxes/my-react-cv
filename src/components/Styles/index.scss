@@ -53,47 +53,46 @@ h1{
   color: $fontColor;
 }
 
-.sidebar{
+bar-container{
   position: absolute;
+  background-color: $sidebarBgColor;
+}
+
+.sidebar{
+  @extend bar-container;
+  text-align: center;
   top: $sidebarTop;
   left: $sidebarLeft;
   width: $sidebarWidth;
   bottom: $sidebarBottom;
-  background-color: $sidebarBgColor;
 }
 
 .header{
-  position: absolute;
+  @extend bar-container;
+  padding-left: 10px;
   top: $headerTop;
   left: $headerLeft;
   right: $headerRight;
   height: $headerheight;
-  background-color: $sidebarBgColor;
+}
+
+main-container{
+  position: absolute;
+  top: $mainTop;
+  left: $mainLeft;
+  right: $mainRight;
+  bottom: $mainBottom;
+  background-color: $layoutBgColor;
+  padding-left: 20px;
 }
 
 .home{
-  position: absolute;
-  top: $mainTop;
-  left: $mainLeft;
-  right: $mainRight;
-  bottom: $mainBottom;
-  background-color: $layoutBgColor;
+  @extend main-container
 }
-
 .about{
-  position: absolute;
-  top: $mainTop;
-  left: $mainLeft;
-  right: $mainRight;
-  bottom: $mainBottom;
-  background-color: $layoutBgColor;
+  @extend main-container
 }
 
 .timeline{
-  position: absolute;
-  top: $mainTop;
-  left: $mainLeft;
-  right: $mainRight;
-  bottom: $mainBottom;
-  background-color: $layoutBgColor;
+  @extend main-container
 }

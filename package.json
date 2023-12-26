@@ -1,7 +1,7 @@
 {
   "name": "my-react-cv",
   "version": "0.1.0",
-  "homepage": "https://daaxes.github.io/my-react-cv",
+  "homepage": "https://Daaxes.github.io/my-react-cv/",
   "private": true,
   "dependencies": {
     "@craco/craco": "^5.9.0",
