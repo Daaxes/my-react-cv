@@ -6,15 +6,18 @@ $aboutBgColor: green;
 $timelineBgColor: blue;
 $fontColor: #f5b609;
 
+$sidebarLeftPos: 240px;
+$headerTopPos: 70px;
+
 $sidebarLeft: 0px;
 $sidebarTop: 0px;
 $sidebarBottom: 0px;
-$sidebarWidth: 300px;
+$sidebarWidth: $sidebarLeftPos;
 
 $headerTop: 0px;
 $headerLeft: $sidebarWidth;
 $headerRight: 0px;
-$headerheight: 70px;
+$headerheight: $headerTopPos;
 
 $mainTop: $headerheight;
 $mainLeft: $sidebarWidth;
