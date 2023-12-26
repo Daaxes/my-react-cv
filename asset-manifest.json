@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/my-react-cv/static/css/main.bde90e4f.css",
-    "main.js": "/my-react-cv/static/js/main.62c879a7.js",
+    "main.css": "/my-react-cv/static/css/main.089ab9de.css",
+    "main.js": "/my-react-cv/static/js/main.2f97ec6c.js",
     "static/js/787.ef724937.chunk.js": "/my-react-cv/static/js/787.ef724937.chunk.js",
-    "static/media/Cinzel-ExtraBold.ttf": "/my-react-cv/static/media/Cinzel-ExtraBold.d04173c84f095ca334a8.ttf",
+    "static/media/Cinzel-Bold.ttf": "/my-react-cv/static/media/Cinzel-Bold.6cc1a5a1184f05e623e7.ttf",
+    "static/media/phoenix.jpg": "/my-react-cv/static/media/phoenix.15e2dd8d868f51fca7a0.jpg",
+    "static/media/Danne.png": "/my-react-cv/static/media/Danne.b38d0532d26b5ab107f6.png",
     "index.html": "/my-react-cv/index.html",
-    "main.bde90e4f.css.map": "/my-react-cv/static/css/main.bde90e4f.css.map",
-    "main.62c879a7.js.map": "/my-react-cv/static/js/main.62c879a7.js.map",
+    "main.089ab9de.css.map": "/my-react-cv/static/css/main.089ab9de.css.map",
+    "main.2f97ec6c.js.map": "/my-react-cv/static/js/main.2f97ec6c.js.map",
     "787.ef724937.chunk.js.map": "/my-react-cv/static/js/787.ef724937.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bde90e4f.css",
-    "static/js/main.62c879a7.js"
+    "static/css/main.089ab9de.css",
+    "static/js/main.2f97ec6c.js"
   ]
 }
