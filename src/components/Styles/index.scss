@@ -1,0 +1,96 @@
+
+$layoutBgColor: #000000;
+$topbarBgColor: #181818;
+$sidebarBgColor: #181818;
+$aboutBgColor: green;
+$timelineBgColor: blue;
+$fontColor: #f5b609;
+
+$sidebarLeft: 0px;
+$sidebarTop: 0px;
+$sidebarBottom: 0px;
+$sidebarWidth: 300px;
+
+$headerTop: 0px;
+$headerLeft: $sidebarWidth;
+$headerRight: 0px;
+$headerheight: 70px;
+
+$mainTop: $headerheight;
+$mainLeft: $sidebarWidth;
+$mainRight: 0px;
+$mainBottom: 0px;
+
+
+
+@font-face {
+    font-family: 'Cinzel ExtraBold';
+    src: local('Cinzel'), url('../fonts/Cinzel-ExtraBold.ttf');
+ }
+  
+body{
+    font-size: 20px;
+    color: $fontColor;
+
+    a:link{
+        color: $fontColor;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:visited {
+        color: $fontColor;
+        background-color: transparent;
+        text-decoration: none;
+      }
+}
+
+h1{
+  font-size: large;
+  color: $fontColor;
+}
+
+.sidebar{
+  position: absolute;
+  top: $sidebarTop;
+  left: $sidebarLeft;
+  width: $sidebarWidth;
+  bottom: $sidebarBottom;
+  background-color: $sidebarBgColor;
+}
+
+.header{
+  position: absolute;
+  top: $headerTop;
+  left: $headerLeft;
+  right: $headerRight;
+  height: $headerheight;
+  background-color: $sidebarBgColor;
+}
+
+.home{
+  position: absolute;
+  top: $mainTop;
+  left: $mainLeft;
+  right: $mainRight;
+  bottom: $mainBottom;
+  background-color: $layoutBgColor;
+}
+
+.about{
+  position: absolute;
+  top: $mainTop;
+  left: $mainLeft;
+  right: $mainRight;
+  bottom: $mainBottom;
+  background-color: $layoutBgColor;
+}
+
+.timeline{
+  position: absolute;
+  top: $mainTop;
+  left: $mainLeft;
+  right: $mainRight;
+  bottom: $mainBottom;
+  background-color: $layoutBgColor;
+}
